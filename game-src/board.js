@@ -79,7 +79,7 @@ function moveCell(index, board) {
   }
 }
 
-// randomized the board based on a difficulty level it starts from the solution and makes some number of moves
+// diff chiz hta skte hain ..
 function randomizeBoard(difficulty, board) {
   const moves = [moveUp, moveDown, moveLeft, moveRight];
   while (difficulty) {
